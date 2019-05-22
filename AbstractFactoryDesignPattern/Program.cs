@@ -23,11 +23,7 @@ namespace AbstractFactoryDesignPattern
             Client client1 = new Client(factory1);
             client1.Run();
 
-<<<<<<< .mine
             // Abstract factory #2 
-=======
-            // Abstract factory #2
->>>>>>> .theirs
 
             AbstractFactory factory2 = new ConcreteFactory2();
             Client client2 = new Client(factory2);
